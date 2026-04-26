@@ -1,9 +1,9 @@
-# 📊 TradeZone Marketplace Analysis (SQL Project)
+# 📊HNG Stage 2 SQL Business Analysis (TradeZone Marketplace Analysis)
 
-## 📌 Project Overview  
+## 🧾Project Overview  
 This project analyzes marketplace performance data from TradeZone (2023–2024) to uncover insights into customer conversion, seller performance, and product-driven revenue.
 
-The goal is to simulate a real-world data analyst workflow — from data cleaning and SQL analysis to business insights and recommendations.
+The goal is to simulate a real-world data analyst workflow, from data cleaning and SQL analysis to business insights and recommendations.
 
 ---
 
@@ -24,13 +24,14 @@ The dataset consists of multiple relational tables:
 - **order_items** – product-level transaction details  
 - **products** – product information and pricing  
 - **sellers** – seller performance data  
-- **payments** – payment transaction records  
+- **payments** – payment transaction records
+- **reviews** – product ratings and feedback
 
 ---
 
 ## 🛠️ Tools & Techniques  
 - SQL (PostgreSQL)  
-- Joins, Aggregations, Window Functions  
+- Techniques: Joins, Aggregations, Window Functions  
 - Data Cleaning & Validation  
 
 ---
@@ -41,25 +42,24 @@ Before analysis, the dataset was cleaned and structured:
 - Handled missing and inconsistent values  
 - Removed duplicates using window functions (`ROW_NUMBER()`)  
 - Standardized text fields (TRIM, case formatting)  
-- Validated key columns such as ratings and monetary values  
+- Validated key columns such as ratings and monetary fields  
 
 ---
 
 ## 🔍 Key Insights  
 
-### 1. Regional Conversion Gap  
-Customer conversion varies significantly by region, with Lagos leading (49.32%) and Kano (31.03%) and Oyo (33.33%) lagging.  
-This represents an ~18 percentage-point gap.
+### 1. Regional Conversion Gap   
+Customer conversion varies significantly by region: Lagos leads at **49.32% (72/146)**, followed by **Rivers (42.42%)**, and **FCT (41.30%)**, while **Oyo (33.33%)** and **Kano (31.03%)** lag behind. This reflects an ~18 percentage-point gap between the highest and lowest-performing regions.
 
 ---
 
 ### 2. Seller Performance Concentration  
-A small group of sellers drives most revenue while maintaining strong ratings and fulfilment performance, creating dependency risk.
+Seller performance is highly uneven across the platform. A small group of sellers consistently leads in **revenue contribution, customer ratings, and fulfilment efficiency**, while the majority operate below key performance thresholds. This creates a dependency on a limited set of high-performing sellers, increasing operational and scalability risk.
 
 ---
 
 ### 3. Product Quality Drives Revenue  
-Revenue is concentrated among a few high-performing electronics products, with higher-rated products consistently generating stronger sales.
+Revenue is heavily concentrated in a small number of high-performing products, particularly within the electronics category. Products such as **HP Pavilion 15, Apple AirPods, and TP-Link Wi-Fi Router** generate significantly higher sales. Additionally, higher-rated products consistently outperform lower-rated ones, confirming that product quality is a strong driver of revenue performance across the platform.
 
 ---
 
@@ -83,7 +83,7 @@ This project demonstrates the ability to clean, analyze, and extract actionable 
 ---
 
 ## 🔗 Acknowledgment  
-Completed as part of the HNG Data Analytics Program.
+Completed as part of the HNG Data Analytics Internship Program.
 
 ---
 
