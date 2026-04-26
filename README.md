@@ -19,13 +19,13 @@ This analysis focuses on answering key business questions:
 ## 📁 Dataset Overview  
 The dataset consists of multiple relational tables:
 
-- **customers** – customer information and location  
-- **orders** – order details and status  
-- **order_items** – product-level transaction details  
-- **products** – product information and pricing  
-- **sellers** – seller performance data  
-- **payments** – payment transaction records
-- **reviews** – product ratings and feedback
+- `customers` – customer information and location  
+- `orders` – order details and status  
+- `order_items` – product-level transaction details  
+- `products` – product information and pricing  
+- `sellers` – seller performance data  
+- `payments` – payment transaction records
+- `reviews` – product ratings and feedback
 
 ---
 
@@ -88,17 +88,20 @@ Completed as part of the HNG Data Analytics Internship Program.
 ---
 
 ## 📂 Repository Structure  
-hng-stage-2-sql-business-analysis/  
-├── data/  
-│   └── cleaned_dump.sql  
-├── sql/  
-│   ├── business_queries.sql 
-|   ├── part_1_data_cleaning.sql 
-│   └── tradezone_database.sql  
-├── docs/  
-│   └── analyst_memo.pdf  
-└── README.md 
+## Project Structure
 
+```bash
+hng-stage-2-sql-business-analysis/
+├── data/
+│   └── cleaned_dump.sql
+├── sql/
+│   ├── business_queries.sql
+│   ├── part_1_data_cleaning.sql
+│   └── tradezone_database.sql
+├── docs/
+│   └── analyst_memo.pdf
+└── README.md
+```
 ---
 
 ## 👤 Author  
