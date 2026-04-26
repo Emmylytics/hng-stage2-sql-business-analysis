@@ -88,19 +88,20 @@ Completed as part of the HNG Data Analytics Internship Program.
 ---
 
 ## 📂 Repository Structure  
-tradezone-marketplace-analysis/  
+hng-stage-2-sql-business-analysis/  
 ├── data/  
 │   └── cleaned_dump.sql  
 ├── sql/  
-│   ├── data_cleaning.sql  
-│   └── business_queries.sql  
+│   ├── business_queries.sql 
+|   ├── part_1_data_cleaning.sql 
+│   └── tradezone_database.sql  
 ├── docs/  
 │   └── analyst_memo.pdf  
-└── README.md  
+└── README.md 
 
 ---
 
 ## 👤 Author  
 Emmanuel Achugo  
 Data Analyst  
-SQL • Python • Power BI • Bioinformatics
+SQL • Python • Power BI • Machine Learning
